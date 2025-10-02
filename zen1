@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Makan Mba Suharti - Makanan Khas Nusantara</title>
+    <meta name="description" content="Warung Makan Mba Suharti menyajikan makanan khas Nusantara seperti Nasi Goreng, Mie Ayam, dan Ayam Geprek. Bisa dipesan langsung via WhatsApp.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://USERNAME.github.io/warung-mba-suharti/"> <!-- GANTI USERNAME -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" type="image/png">
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafa; margin: 0; }
+        header { background: #e67e22; color: white; text-align: center; padding: 1em 0; }
+        .produk-container { display: flex; flex-wrap: wrap; justify-content: center; margin-top: 2em; }
+        .produk { background: white; border: 1px solid #ddd; border-radius: 8px; width: 220px; margin: 1em; padding: 1em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+        .produk img { width: 100%; border-radius: 6px; }
+        .produk h2 { font-size: 1.2em; margin: 0.5em 0; }
+        .produk p { margin: 0.3em 0; }
+        .beli-btn { background: #e67e22; color: white; border: none; padding: 0.7em 1.5em; border-radius: 5px; cursor: pointer; }
+        .beli-btn:hover { background: #d35400; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warung Makan Mba Suharti</h1>
+        <p>Menu makanan khas Nusantara</p>
+    </header>
+    <div class="produk-container">
+        <div class="produk">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Nasi Goreng">
+            <h2>Nasi Goreng Spesial</h2>
+            <p>Rp20.000</p>
+            <button class="beli-btn" onclick="window.location.href='https://wa.me/6281234567890?text=Saya+mau+pesan+Nasi+Goreng+Spesial'">Pesan via WhatsApp</button>
+        </div>
+        <div class="produk">
+            <img src="https://images.unsplash.com/photo-1543353071-087092ec3931?auto=format&fit=crop&w=400&q=80" alt="Mie Ayam">
+            <h2>Mie Ayam Mantap</h2>
+            <p>Rp18.000</p>
+            <button class="beli-btn" onclick="window.location.href='https://wa.me/6281234567890?text=Saya+mau+pesan+Mie+Ayam+Mantap'">Pesan via WhatsApp</button>
+        </div>
+        <div class="produk">
+            <img src="https://images.unsplash.com/photo-1519864606125-c2a7e43b9b12?auto=format&fit=crop&w=400&q=80" alt="Ayam Geprek">
+            <h2>Ayam Geprek Pedas</h2>
+            <p>Rp22.000</p>
+            <button class="beli-btn" onclick="window.location.href='https://wa.me/6281234567890?text=Saya+mau+pesan+Ayam+Geprek+Pedas'">Pesan via WhatsApp</button>
+        </div>
+    </div>
+</body>
+</html>
+
